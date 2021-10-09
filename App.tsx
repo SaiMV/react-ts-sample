@@ -2,13 +2,11 @@ import * as React from 'react';
 import './App.css';
 import Hello from './components/Hello';
 
-const logo = require('./logo.svg');
-
 function App() {
   return (
     <div className="App">
       <div className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="./logo.svg" className="App-logo" alt="logo" />
         <h2>Welcome to React</h2>
       </div>
       <p className="App-intro">
